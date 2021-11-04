@@ -1,3 +1,13 @@
+# Start
+
+The idea of this code is to read the leveldb from a running geth client and read out account and smart contract data. Read the trie data, decode it and so on. You can just use it to see how it looks:
+```
+npm i
+node readData.js
+```
+It will take the current block number, take the state root and read from the database.
+
+# General
 Interesting articles: https://blog.openzeppelin.com/deconstructing-a-solidity-contract-part-ii-creation-vs-runtime-6b9d60ecb44c/
 
 Start Geth in dev mode:
