@@ -1,0 +1,20 @@
+{
+  "name": "stateroottest",
+  "version": "1.0.0",
+  "description": "Start Geth in dev mode: ``` geth --datadir ~/.test-chain-dir --http --dev --http.corsdomain \"https://remix.ethereum.org,http://remix.ethereum.org\" ```",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ethereumjs-account": "^3.0.0",
+    "ethereumjs-util": "^7.1.3",
+    "ethers": "^5.5.1",
+    "keythereum": "^1.2.0",
+    "level": "^7.0.1",
+    "merkle-patricia-tree": "^4.2.2",
+    "rlp": "^2.2.7"
+  }
+}
