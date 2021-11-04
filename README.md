@@ -2,7 +2,7 @@ Interesting articles: https://blog.openzeppelin.com/deconstructing-a-solidity-co
 
 Start Geth in dev mode:
 ```bash
-geth --datadir ~/testchain --http --dev --http.corsdomain "https://remix.ethereum.org,http://remix.ethereum.org"
+geth --datadir ~/testchain --cache.gc "0" --gcmode "archive" --http --dev --http.corsdomain "https://remix.ethereum.org,http://remix.ethereum.org"
 ```
 Attaching with ipc:
 ```bash
